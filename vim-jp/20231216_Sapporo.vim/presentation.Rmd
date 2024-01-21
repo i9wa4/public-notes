@@ -1,0 +1,41 @@
+---
+title: Sapporo.vim
+author: i9wa4
+# date: "`r format(Sys.time(), '%Y-%m-%d(%a)')`"
+date: 2023/12/14
+output:
+  ioslides_presentation:
+    incremental: false
+    widescreen: true
+    smaller: false
+    slide_level: 2
+    logo: img/icon_hhkb.jpeg
+---
+
+<!-- # title -->
+<!-- <div class="columns-2"> -->
+<!-- </div>                  -->
+
+## 1. 自己紹介
+
+- **[HN]** i9wa4 (いくわよ)
+- **[札幌在住歴]** `r length(seq(as.Date("2018/07/19"), Sys.Date(), "year")) + 4 - 1`年
+- **[仕事]** 直近`r floor((length(seq(as.Date("2022/04/01"), Sys.Date(), "month")) - 1) * 2 / 12) / 2`年は AWS データ分析基盤業務 (MLOps)
+- **[最近の Vim 活]**
+    - Linter 利用構成変更 "mason.nvim + null-ls.nvim" -> "makeprg"
+    - Markdown Formatter (Denops プラグイン) 作成
+
+## 2. 本日のタスク
+
+1. dein.vim -> dpp.vim 移行
+1. Vim の LSP 環境整備
+1. efm-langserver 導入
+1. vital.vim の中身チェック
+1. ddu.vim 導入
+1. fish 導入
+
+## 3. 本日の成果
+
+> 1. dein.vim -> dpp.vim 移行
+- 遅延なしプラグインの起動までできた
+- このあとは遅延起動プラグイン対応のために設定ファイル (TypeScript) を書きたい
