@@ -18,10 +18,11 @@ output:
 
 ## 1. 自己紹介
 
-- **[HN]** i9wa4 (いくわよ)
-- **[札幌在住歴]** `r length(seq(as.Date("2018/07/19"), Sys.Date(), "year")) + 4 - 1`年
-- **[仕事]** 直近`r floor((length(seq(as.Date("2022/06/01"), Sys.Date(), "month")) - 1) * 2 / 12) / 2`年は AWS 機械学習基盤の仕事 (MLOps)
-- **[最近の Vim 活]**
+- **【HN】** i9wa4 (いくわよ)
+- **【札幌在住歴】** `r length(seq(as.Date("2018/07/19"), Sys.Date(), "year")) + 4 - 1`年
+- **【仕事】** 直近`r floor((length(seq(as.Date("2022/06/01"), Sys.Date(), "month")) - 1) * 2 / 12) / 2`年は AWS 機械学習基盤での仕事 (MLOps)
+- **【趣味】** 麻雀・タワーディフェンスゲーム・VTuber
+- **【最近の Vim 活】**
     - プラグインマネージャー移行 (dein.vim -> dpp.vim)
     - Vim LSP 環境整備 (vim-lsp)
     - efm-langserver 導入
