@@ -21,25 +21,11 @@ output:
 - **【HN】** i9wa4 (いくわよ)
 - **【札幌在住歴】** `r length(seq(as.Date("2018/07/19"), Sys.Date(), "year")) + 4 - 1`年
 - **【仕事】** 直近`r floor((length(seq(as.Date("2022/06/01"), Sys.Date(), "month")) - 1) * 2 / 12) / 2`年は AWS 機械学習基盤の業務
-<<<<<<< HEAD
-||||||| bb1c95f
-- **【趣味】**
-    - 麻雀・マイクラ・酒 (どれも最近ご無沙汰)
-=======
-- **【趣味】**
-    - 麻雀・Minecraft・酒 (どれも最近ご無沙汰)
->>>>>>> refs/remotes/origin/main
 - **【最近の Vim 活】**
-    - プラグインマネージャー移行 dein.vim -> dpp.vim
+    - プラグインマネージャー dein.vim から dpp.vim へ移行
     - vim-lsp 導入
     - efm-langserver 導入
 
 ## 2. 本日のタスク
 
-1. ddu.vim 導入
-<<<<<<< HEAD
-||||||| bb1c95f
-1. vim-jp マイクラサーバーデビュー
-=======
-1. Minecraft vim-jp ワールドーデビュー
->>>>>>> refs/remotes/origin/main
+1. Docker / Kubernetes の入門書を読む
